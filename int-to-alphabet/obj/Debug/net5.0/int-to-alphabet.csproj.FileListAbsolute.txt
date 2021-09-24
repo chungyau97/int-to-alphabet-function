@@ -13,3 +13,18 @@ D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alpha
 D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\ref\int-to-alphabet.dll
 D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.pdb
 D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.genruntimeconfig.cache
+D:\Github Repos\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.exe
+D:\Github Repos\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.deps.json
+D:\Github Repos\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.runtimeconfig.json
+D:\Github Repos\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.runtimeconfig.dev.json
+D:\Github Repos\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.dll
+D:\Github Repos\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\ref\int-to-alphabet.dll
+D:\Github Repos\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.pdb
+D:\Github Repos\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Repos\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.AssemblyInfoInputs.cache
+D:\Github Repos\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.AssemblyInfo.cs
+D:\Github Repos\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.csproj.CoreCompileInputs.cache
+D:\Github Repos\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.dll
+D:\Github Repos\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\ref\int-to-alphabet.dll
+D:\Github Repos\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.pdb
+D:\Github Repos\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.genruntimeconfig.cache

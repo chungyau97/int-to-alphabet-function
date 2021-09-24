@@ -1,58 +1,88 @@
 ﻿using System;
 using System.IO;
 using System.Text;
+using int_to_alphabet.Controller;
 
 namespace int_to_alphabet
 {
     class Program
     {
-        const int ColumnBase = 26;
-        const int DigitMax = 7; // ceil(log26(Int32.Max))
-        const string Digits = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter count of columns:");
-            int count = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Loop (Y/N):");
-            string input = Console.ReadLine();
-
-            if (input.ToUpper() == "Y")
+            try
             {
-                string path = Directory.GetCurrentDirectory();
-                string filename = "/result.txt";
-                using (StreamWriter writer = File.AppendText(path + filename))
+                int count = GetCounter();
+
+                string loop = GetLoop();
+
+                Console.WriteLine("Being to convert Int to Alphabet string.");
+
+                GenerateInt2Alpha(count, loop);
+
+                Console.WriteLine("Complete");
+            }catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+
+        private static int GetCounter()
+        {
+            try
+            {
+                Console.WriteLine("Enter count:");
+                return int.Parse(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Only allow numeric value.");
+            }
+        }
+        private static string GetLoop()
+        {
+            try
+            {
+                Console.WriteLine("Loop (Y/N):");
+                return Console.ReadLine();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        private static void GenerateInt2Alpha(int count, string loop)
+        {
+            try
+            {
+                Int2Alpha int2alpha = new Int2Alpha();
+
+                if (loop.ToUpper() == "Y")
                 {
-                    for (int i = 0; i < count; i++)
+                    string path = Directory.GetCurrentDirectory();
+                    string filename = "/result.txt";
+                    using (StreamWriter writer = File.AppendText(path + filename))
                     {
-                        writer.WriteLine(IndexToColumn(i + 1));
+                        for (int i = 0; i < count; i++)
+                        {
+                            writer.WriteLine(int2alpha.IntToAlpha(i + 1));
+                        }
+                        Console.WriteLine("Path of generated result:");
+                        Console.WriteLine(path + filename);
                     }
                 }
+                else if(loop.ToUpper() == "N")
+                {
+                    Console.WriteLine("The count of " + count + " is " + int2alpha.IntToAlpha(count));
+                }
+                else
+                {
+                    throw new Exception("Logic is not handled");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Output: " + IndexToColumn(count + 1));
+                throw ex;
             }
-
-            Console.WriteLine("Complete");
-        }
-        public static string IndexToColumn(int index)
-        {
-            if (index <= 0)
-                throw new IndexOutOfRangeException("index must be a positive number");
-
-            if (index <= ColumnBase)
-                return Digits[index - 1].ToString();
-
-            var sb = new StringBuilder().Append(' ', DigitMax);
-            var current = index;
-            var offset = DigitMax;
-            while (current > 0)
-            {
-                sb[--offset] = Digits[--current % ColumnBase];
-                current /= ColumnBase;
-            }
-            return sb.ToString(offset, DigitMax - offset);
         }
     }
 }
