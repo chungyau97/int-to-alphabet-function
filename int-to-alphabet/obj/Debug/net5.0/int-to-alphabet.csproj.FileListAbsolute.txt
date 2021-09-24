@@ -1,0 +1,15 @@
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.exe
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.deps.json
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.runtimeconfig.json
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.runtimeconfig.dev.json
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.dll
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\ref\int-to-alphabet.dll
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\bin\Debug\net5.0\int-to-alphabet.pdb
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.GeneratedMSBuildEditorConfig.editorconfig
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.AssemblyInfoInputs.cache
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.AssemblyInfo.cs
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.csproj.CoreCompileInputs.cache
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.dll
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\ref\int-to-alphabet.dll
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.pdb
+D:\int-to-alphabet\int-to-alphabet\int-to-alphabet\obj\Debug\net5.0\int-to-alphabet.genruntimeconfig.cache

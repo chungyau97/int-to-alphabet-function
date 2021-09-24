@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "int-to-alphabet/1.0.0": {
+        "runtime": {
+          "int-to-alphabet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "int-to-alphabet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
